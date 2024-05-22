@@ -3,8 +3,8 @@ import './style.css'
 
 const Child = ({ name, age='unknown', department }) => {
   // Since props are object. We can destructure.
-  return (
-    <>
+  return (  
+    <> 
       <div className='child'>
         <p>Name: {name}</p>
         <p>Age: {age}</p>

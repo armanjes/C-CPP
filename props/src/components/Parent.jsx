@@ -1,14 +1,14 @@
 import Child from "./Child";
 
 const Parent = () => {
-  const name = "john doe";
+  const name = "john doe" ;
   const age = 30;
   const department = "CSE";
-  return (
-    <>
+  return ( 
+    <> 
       <Child name={name} age={age} department={department} />
       <Child name="xyz" age={100} />
-      <Child name="abc" />
+      <Child name="mno" />
     </>
   );
 };
@@ -37,7 +37,7 @@ In React, you can send various types of data through props. Here's a breakdown o
 
 4. **Children Components**:
    - You can pass child components as props to other components, allowing for composition of complex UI structures.
-
+ 
 5. **Event Handlers**:
    - Functions can be passed as props to handle events or perform specific actions triggered by user interactions.
 
